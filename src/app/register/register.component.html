@@ -1,0 +1,13 @@
+<div class="container">
+    <div class="card">
+      <img src="assets/logo.png" alt="TechConnect Logo" class="logo">
+      <h1>TechConnect</h1>
+  
+      <input type="text" placeholder="Enter Fullname" [(ngModel)]="fullname" />
+      <input type="email" placeholder="Enter Email" [(ngModel)]="email" />
+      <input type="password" placeholder="Enter Password" [(ngModel)]="password" />
+      <input type="password" placeholder="Confirm Password" [(ngModel)]="confirmPassword" />
+  
+      <button (click)="onRegister()">REGISTER</button>
+    </div>
+  </div>
